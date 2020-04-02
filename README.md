@@ -26,25 +26,25 @@ Sehyeok Oh  @shoh4486
 ## Author's application
 - Deep learning model for predicting hardness distribution in laser heat treatment of AISI H13 tool steel, *Applied Thermal Engineering* 153, 583-595 (2019).
 - Inputs: FEM-simulated cross-sectional temperature profile, Outputs: Cross-sectional hardness distribution
-- Training tracking (No validation set, as the validation was carried out by cross-validation; epoch: 0~460)
-  - **Training set (Process conditions: 'c', 'f', 'h' with their ground truth; from left-to-right, top-to-bottom)**
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78240851-8178d280-751a-11ea-9aa2-b619d7dfb1f2.gif>
+- GAN generation tracking (No validation set, as the validation was carried out by cross-validation; epoch: 0~460)
+  - **Training set (Process conditions: 'c', 'f', 'h' with their ground truths; from left-to-right, top-to-bottom)**
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258584-69af4780-7536-11ea-9ad5-9a08de8706a8.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78243516-dae30080-751e-11ea-8d86-e352471e565c.png>
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78240473-06172100-751a-11ea-96b3-bdd337893a39.gif>
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258588-6ae07480-7536-11ea-8f6d-c744583f66af.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78243609-06fe8180-751f-11ea-943f-345d5c2a6ba2.png>
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78241031-bedd6000-751a-11ea-87ae-e913ddad73b4.gif>
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258590-6b790b00-7536-11ea-95b6-affbb82b8d09.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78243682-27c6d700-751f-11ea-8beb-abd0aa59d68d.png>
   
-  - **Test set (Process conditions: 'a', 'b', 'd', 'e', 'f' with their ground truth; from left-to-right, top-to-bottom)**
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78244102-edaa0500-751f-11ea-9c7c-566a05b95332.gif>
+  - **Test set (Process conditions: 'a', 'b', 'd', 'e', 'f' with their ground truths; from left-to-right, top-to-bottom)**
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258591-6c11a180-7536-11ea-939e-917552ed6912.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78244107-ef73c880-751f-11ea-8e54-48d6c5715680.png>
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78243899-94da6c80-751f-11ea-859e-f2ab6c416442.gif>
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258577-67e58400-7536-11ea-9215-328988c5a51a.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78243905-96a43000-751f-11ea-8983-2b829834b69e.png>
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78243930-a28ff200-751f-11ea-9269-4a23400bc245.gif>
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258586-6a47de00-7536-11ea-819a-7e265bb8463c.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78243933-a459b580-751f-11ea-96eb-d74f261d938d.png>
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78243958-aface100-751f-11ea-9a83-0c21eeca6f5b.gif>
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258587-6a47de00-7536-11ea-8388-337718409a74.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78243966-b20f3b00-751f-11ea-86bb-07e7e838237b.png>
-  <img width='200' src=https://user-images.githubusercontent.com/39050306/78244007-c0f5ed80-751f-11ea-8b9c-d5f0981f939d.gif>
+  <img width='200' src=https://user-images.githubusercontent.com/39050306/78258589-6b790b00-7536-11ea-8476-50f35a4ce05a.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78244013-c2bfb100-751f-11ea-8025-c83df4acbc74.png>
   
 - **Result at the validated epoch (R2 accuracy: 94.4%)**
