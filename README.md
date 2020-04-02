@@ -47,5 +47,5 @@ Sehyeok Oh  @shoh4486
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78258589-6b790b00-7536-11ea-8476-50f35a4ce05a.gif>
   <img width='200' src=https://user-images.githubusercontent.com/39050306/78244013-c2bfb100-751f-11ea-8025-c83df4acbc74.png>
   
-- **Result at the validated epoch (R2 accuracy: 94.4%)**
+- **Result at the validated epoch (R2 accuracy: 94.4%)** 
   <img width='700' src="https://user-images.githubusercontent.com/39050306/68071460-edb1a780-fdbd-11e9-9e79-f83ab867e11f.png">
