@@ -25,6 +25,7 @@ $ python main.py --trial_num=2 --train=False --restore=True --restore_trial_num=
 Sehyeok Oh  @shoh4486
 ## Author's application
 - **Deep learning model for predicting hardness distribution in laser heat treatment of AISI H13 tool steel, *Applied Thermal Engineering* 153, 583-595 (2019)**
+- https://www.sciencedirect.com/science/article/pii/S1359431118361696
 - Inputs: FEM-simulated cross-sectional temperature profile, Outputs: Cross-sectional hardness distribution
 - GAN generation tracking (No validation set, as the validation was carried out by cross-validation; epoch: 0~460)
   - **Training set (Process conditions: 'c', 'f', 'h' with their ground truths; from left-to-right, top-to-bottom)**
